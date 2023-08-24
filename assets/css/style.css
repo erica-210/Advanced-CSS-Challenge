@@ -1,0 +1,43 @@
+* {
+   letter-spacing: 4px; 
+}
+
+header {
+    display: flexbox;
+    padding: 0 50px 0 0;
+    background: rgb(56, 55, 55);
+    overflow: hidden;
+}
+
+header h1{
+    display: inline-block;
+    padding: 5px 5px 5px 0;
+    padding-left: 80px;
+    background: turquoise;
+    color: rgb(56, 55, 55);
+    text-align: right;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+header li {
+    float: right;
+  }
+  
+header li a {
+    display: block;
+    color: turquoise;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    
+  }
