@@ -32,12 +32,17 @@ header li {
   }
   
 header li a {
-    display: block;
     color: turquoise;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-family: 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+    
+  }
+
+  /* setting nav to the same line as header */
+  nav {
+    display: inline-block;
     
   }
