@@ -24,10 +24,14 @@ https://www.makeareadme.com/
 Refrence for HTML and CSS: 
 https://www.w3schools.com/
 
-https://ordinarycoders.com/blog/article/
-hero-banners
-
 https://stackoverflow.com/
+
+https://teamtreehouse.com/community/putting-my-h1-and-nav-bar-in-the-same-line
+
+Banner Image:
+https://www.vecteezy.com/vector-art/4560276-green-polygonal-crystal-background-polygon-design-pattern-environment-green-low-poly-vector-illustration-and-backdrop
+
+
 
 ## License
 
