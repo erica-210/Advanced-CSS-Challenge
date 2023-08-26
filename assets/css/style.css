@@ -2,6 +2,10 @@
    letter-spacing: 4px; 
 }
 
+:root {
+  --bright: turquoise; 
+}
+
 header {
     display: flexbox;
     padding: 0 50px 0 0;
@@ -13,7 +17,7 @@ header h1{
     display: inline-block;
     padding: 5px 5px 5px 0;
     padding-left: 80px;
-    background: turquoise;
+    background: var(--bright);
     color: rgb(56, 55, 55);
     text-align: right;
     font-family: 'Lucida Sans', Arial, sans-serif;
@@ -32,17 +36,21 @@ header li {
   }
   
 header li a {
-    color: turquoise;
+    color: var(--bright);
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
     font-family: 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
     
   }
 
   /* setting nav to the same line as header */
-  nav {
+nav {
     display: inline-block;
-    
+    position: relative;
+    left: 550px;
+   
   }
+
+
+
