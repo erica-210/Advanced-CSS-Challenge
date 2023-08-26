@@ -18,11 +18,15 @@ screenshot###
 
 Read Me Examples: 
 https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+
 https://www.makeareadme.com/
 
 Refrence for HTML and CSS: 
 https://www.w3schools.com/
-https://ordinarycoders.com/blog/article/hero-banners
+
+https://ordinarycoders.com/blog/article/
+hero-banners
+
 https://stackoverflow.com/
 
 ## License

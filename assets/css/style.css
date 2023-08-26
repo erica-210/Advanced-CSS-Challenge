@@ -1,9 +1,9 @@
 * {
-   letter-spacing: 4px; 
+   letter-spacing: 3px; 
 }
 
 :root {
-  --bright: turquoise; 
+  --bright: rgb(49, 190, 68); 
 }
 
 header {
@@ -37,7 +37,6 @@ header li {
   
 header li a {
     color: var(--bright);
-    text-align: center;
     padding: 14px 16px;
     font-family: 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
@@ -47,9 +46,7 @@ header li a {
   /* setting nav to the same line as header */
 nav {
     display: inline-block;
-    position: relative;
-    left: 550px;
-   
+    float: ;
   }
 
 
