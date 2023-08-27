@@ -1,5 +1,6 @@
 * {
    letter-spacing: 3px; 
+   font-family: 'Lucida Sans', Arial, sans-serif;
 }
 
 :root {
@@ -20,7 +21,6 @@ header h1{
     background: var(--bright);
     color: var(--dark)
     text-align: right;
-    font-family: 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
 }
 
@@ -38,7 +38,6 @@ header li {
 header li a {
     color: var(--bright);
     padding: 14px 16px;
-    font-family: 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
   }
 
@@ -49,37 +48,148 @@ nav {
     float: right;
   }
 
-img {
-    position: absolute;
-    width: 110%;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-  }
-
-article div{
-  background-image: url(https://cdn.imgbin.com/12/15/7/imgbin-low-polygon-background-green-banner-8fx4RJ1JnaCkbCgffacAfheqq.jpg);
+ 
+/* postioning banner and article title */
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+article img {
+    width: 100%;
+    height: 100%;
   }
 
 article h1 {
-  
   position: relative;
+  top: -120px;
   left: -50px;
-  top: 90px;
   float: right;
   background-color: var(--dark);
   padding: 15px;
   margin: 20px;
   color: var(--bright);
-  font-family: 'Lucida Sans', Arial, sans-serif;
   font-style: italic;
   font-weight: bold;
   border: 3px outset rgb(168, 158, 14); 
 }
 
 
-@media screen and (max-width: 768px) {
 
+/* floating side titles */
+aside {
+  float: left;
+  padding: 0 10px 0 0;
+  margin: 0 30px 0 0;
+  font-size: 50px;
+  border-right: 3px solid var(--dark);
+}
+
+aside .me {
+  display: block;
+  text-align: right;
+}
+
+/*aligning sections*/
+section {
+  padding: 150px;
+}
+
+/**/
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.project1 {
+  border-width: 1px;
+  padding: 5px;
+}
+
+.project1 img {
+  height: 100%;
+  width: 100%;
+  border: 4px solid var(--bright);
+}
+
+.p1p {
+  position: relative;
+  background-color: var(--bright);
+  color: black;
+  top: -150px;
+  left: -20px;
+  float: left;
+  padding: 5px 5px 5px 10px;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.refactor {
+  font-size: 10px;
+}
+
+.smaller img{
+  width: 60%;
+  height: 70%;
+  border: 4px solid var(--bright);
+}
+
+.work {
+  position: relative;
+  background-color: var(--bright);
+  color: black;
+  left: 170px;
+  top: 120px;
+  float: left;
+  padding: 5px 5px 5px 10px;
+  font-weight: bold;
+}
+
+.work2 {
+  position: relative;
+  background-color: var(--bright);
+  color: black;
+  left: 171px;
+  top: 121px;
+  float: left;
+  padding: 5px 5px 5px 10px;
+  font-weight: bold;
+}
+
+.work3 {
+  position: relative;
+  background-color: var(--bright);
+  color: black;
+  left: 140px;
+  top: 121px;
+  float: left;
+  padding: 5px 30px 5px 10px;
+  font-weight: bold;
+}
+
+.work4 {
+  position: relative;
+  background-color: var(--bright);
+  color: black;
+  left: 211px;
+  top: 121px;
+  float: left;
+  padding: 5px 30px 5px 10px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 10px;
+}
+
+/*orienting links*/
+.contact p {
+  display: inline;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+ 
 }
 
 @media screen and (max-width: 576px) {
