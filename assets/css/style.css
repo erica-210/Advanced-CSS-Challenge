@@ -3,13 +3,16 @@
    font-family: 'Lucida Sans', Arial, sans-serif;
 }
 
+body {
+  background-color: rgba(56, 55, 55, 0.233);
+}
+
 :root {
   --bright: rgb(49, 190, 68); 
   --dark: rgb(56, 55, 55);
 }
 
 header {
-    display: flexbox;
     margin: -10px -10px 0px -10px;
     background: var(--dark);
 }
@@ -28,7 +31,6 @@ header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
   }
   
 header li {
@@ -54,6 +56,7 @@ main {
   display: flex;
   flex-wrap: wrap;
 }
+
 article img {
     width: 100%;
     height: 100%;
@@ -73,8 +76,6 @@ article h1 {
   border: 3px outset rgb(168, 158, 14); 
 }
 
-
-
 /* floating side titles */
 aside {
   float: left;
@@ -93,16 +94,28 @@ aside .me {
   text-align: right;
 }
 
+#section1 img{
+  border: 4px solid var(--bright);
+  height: 10%;
+  width: 10%;
+}  
+
 /*aligning sections*/
 section {
   padding: 150px;
 }
 
-/**/
+#work {
+
+padding: 0 0 1250px 20px;
+}
+
+/*using flexbox and styling to organize projects*/
 .projects {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-left: 70px;
 }
 
 .project1 {
@@ -110,10 +123,17 @@ section {
   padding: 5px;
 }
 
+
+
 .project1 img {
+  opacity: .5 ;
   height: 100%;
   width: 100%;
   border: 4px solid var(--bright);
+}
+
+.project1 img:hover {
+  opacity: 1;
 }
 
 .p1p {
@@ -137,6 +157,7 @@ section {
   background-size: 100%;
   background-position: top;
   background-repeat: no-repeat;
+  opacity: .5;
   width: 46%;
   height: 250px;
   padding: 11px;
@@ -144,24 +165,15 @@ section {
   border: 4px solid var(--bright);
 }
 
+.smaller:hover {
+opacity: 1;
+}
 
 .work {
   position: relative;
   background-color: var(--bright);
-  color: black;
-  left: 170px;
-  top: 120px;
-  float: left;
-  padding: 5px 5px 5px 10px;
-  font-weight: bold;
-}
-
-.work2 {
-  position: relative;
-  background-color: var(--bright);
-  color: black;
-  left: 171px;
-  top: 121px;
+  left: -15px;
+  top: 160px;
   float: left;
   padding: 5px 5px 5px 10px;
   font-weight: bold;
@@ -170,22 +182,10 @@ section {
 .work3 {
   position: relative;
   background-color: var(--bright);
-  color: black;
-  left: 140px;
-  top: 121px;
+  left: -15px;
+  top: 160px;
   float: left;
-  padding: 5px 30px 5px 10px;
-  font-weight: bold;
-}
-
-.work4 {
-  position: relative;
-  background-color: var(--bright);
-  color: black;
-  left: 211px;
-  top: 121px;
-  float: left;
-  padding: 5px 30px 5px 10px;
+  padding: 5px 60px 5px 10px;
   font-weight: bold;
 }
 
@@ -193,17 +193,39 @@ section {
   font-size: 10px;
 }
 
-/*orienting links*/
+/* spacing and aligning links*/
 .contact {
   display: flex;
 }
 
-.paragraph {
+.paragraph ul{
   display: flex;
-  padding: 20px;
-  width: 500px;
-  justify-content: space-between;
+  list-style-type: none;
+  padding-top: 40px;
+  color: var(--bright);
+  font-weight: bold;
+  font-size: 20px;
 }
+
+.paragraph ul li {
+  padding: 50px;
+}
+
+.paragraph ul li a:link {
+  text-decoration: none;
+}
+
+.resume p{
+  display: flex;
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.resume a:link {
+  text-decoration: none;
+}
+
 
 @media screen and (max-width: 768px) {
  
