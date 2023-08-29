@@ -12,7 +12,7 @@ Portfolio Sample webpage:
 
 Github Repository:
 
-screenshot###
+![alt text](./assets/images/screentshot2.png)
 
 ## Credits
 
@@ -31,7 +31,11 @@ https://teamtreehouse.com/community/putting-my-h1-and-nav-bar-in-the-same-line
 Banner Image:
 https://www.vecteezy.com/vector-art/4560276-green-polygonal-crystal-background-polygon-design-pattern-environment-green-low-poly-vector-illustration-and-backdrop
 
+Study Group:
+Arturo Vargas
 
+Tutoring:
+Jili Jiang
 
 ## License
 

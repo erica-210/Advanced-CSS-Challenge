@@ -51,7 +51,7 @@ nav {
   }
 
  
-/* postioning banner and article title */
+/*postioning banner and article title*/
 main {
   display: flex;
   flex-wrap: wrap;
@@ -76,7 +76,7 @@ article h1 {
   border: 3px outset rgb(168, 158, 14); 
 }
 
-/* floating side titles */
+/*floating side titles of content*/
 aside {
   float: left;
   padding: 0 10px 0 0;
@@ -93,20 +93,21 @@ aside .me {
   display: block;
   text-align: right;
 }
-
+ /*aligning selfie with about me*/
 #section1 img{
+  display: flex;
+  flex-wrap: wrap;
   border: 4px solid var(--bright);
   height: 10%;
   width: 10%;
 }  
 
-/*aligning sections*/
+/*setting up sections for main content*/
 section {
   padding: 150px;
 }
 
 #work {
-
 padding: 0 0 1250px 20px;
 }
 
@@ -123,8 +124,6 @@ padding: 0 0 1250px 20px;
   padding: 5px;
 }
 
-
-
 .project1 img {
   opacity: .5 ;
   height: 100%;
@@ -132,6 +131,7 @@ padding: 0 0 1250px 20px;
   border: 4px solid var(--bright);
 }
 
+/*hover and opacity for faded look and normal when mouse scrolls over image*/
 .project1 img:hover {
   opacity: 1;
 }
@@ -146,6 +146,7 @@ padding: 0 0 1250px 20px;
   padding: 5px 5px 5px 10px;
   margin: 20px;
   font-weight: bold;
+  opacity: .5;
 }
 
 .refactor {
@@ -211,8 +212,10 @@ opacity: 1;
   padding: 50px;
 }
 
-.paragraph ul li a:link {
+/*no underline on links and allowing for color change*/
+.paragraph ul li a:link, a:visited {
   text-decoration: none;
+  color: var(--bright);
 }
 
 .resume p{
@@ -222,8 +225,9 @@ opacity: 1;
   font-size: 20px;
 }
 
-.resume a:link {
+.resume a:link, a:visited {
   text-decoration: none;
+  color: var(--bright);
 }
 
 
