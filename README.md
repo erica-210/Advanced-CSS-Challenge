@@ -33,6 +33,7 @@ https://www.vecteezy.com/vector-art/4560276-green-polygonal-crystal-background-p
 
 Study Group:
 Arturo Vargas
+Christian Baca
 
 Tutoring:
 Jili Jiang
