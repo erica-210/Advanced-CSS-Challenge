@@ -10,6 +10,8 @@ N/A
 
 Portfolio Sample webpage:
 
+https://erica-210.github.io/Advanced-CSS-Challenge/
+
 Github Repository:
 
 ![alt text](./assets/images/screentshot2.png)
